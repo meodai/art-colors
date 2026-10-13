@@ -51,8 +51,8 @@ Each collection has the same two files, one entry per work:
 ## How the palettes are made
 
 Each work's image is read once, at a small size, and its palette is extracted
-with the author's own perceptual palette tool, which works in OKLab. The tool
-itself isn't part of this repository.
+with the extractor behind [OKpalette](https://okpalette.color.pizza/), which
+works in OKLab. The extractor itself isn't part of this repository.
 
 ## License
 
