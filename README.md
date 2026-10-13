@@ -11,6 +11,7 @@ The data is refreshed every week, picking up newly released works.
 
 | Folder | Source | Works |
 | --- | --- | --- |
+| [`chicago-art`](chicago-art) | [Art Institute of Chicago](https://www.artic.edu/open-access/open-access-images), public-domain (CC0) paintings and prints | about 26,500 |
 | [`cleveland-art`](cleveland-art) | [Cleveland Museum of Art](https://www.clevelandart.org/open-access), CC0 paintings and prints | about 14,900 |
 
 ## Format
@@ -45,8 +46,12 @@ Each collection has the same two files, one entry per work:
   the picture.
 - `share`: the percentage of the picture closest to that color. The shares
   don't always add up to 100.
+- `id` and `accession`: the museum's own id and accession (reference)
+  number for the work.
 - `url`: the work's page at the museum. `image`: the museum's own web-sized
-  image, with its `width` and `height`.
+  image (at the Art Institute of Chicago, 843 pixels wide from its IIIF
+  server). `width` and `height` give the image's proportions: the web
+  image's size at Cleveland, the full image's at Chicago.
 
 ## How the palettes are made
 
