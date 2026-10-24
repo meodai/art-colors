@@ -42,8 +42,10 @@ Each collection has the same two files, one entry per work:
 }
 ```
 
-- `palette`: the work's main colors, largest first. Their number depends on
-  the picture.
+- `palette`: the work's main colors, in color order (sorted with
+  [colorsort-js](https://github.com/darosh/colorsort-js), as on
+  [OKpalette](https://okpalette.color.pizza)); `share` gives each one's
+  weight. Their number depends on the picture.
 - `share`: the percentage of the picture closest to that color. The shares
   don't always add up to 100.
 - `id` and `accession`: the museum's own id and accession (reference)
